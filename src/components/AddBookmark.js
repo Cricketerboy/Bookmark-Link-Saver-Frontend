@@ -76,7 +76,7 @@ const AddBookmark = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:4000/api/bookmarks',
+        'https://bookmark-link-saver-backend.onrender.com/api/bookmarks',
         { url },
         {
           headers: {
