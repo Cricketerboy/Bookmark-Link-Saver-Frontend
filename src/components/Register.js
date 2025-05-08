@@ -88,7 +88,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:4000/api/auth/signup', { email, password });
+      const response = await axios.post('https://bookmark-link-saver-backend.onrender.com/api/auth/signup', { email, password });
       if (response.status === 201) {
         navigate('/login');
       }
