@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://bookmark-link-saver-backend.onrender.com/api',
 });
 
 // Automatically add token to headers
